@@ -2,6 +2,7 @@ version: '2'
 services:
     page:
         image: jekyll/jekyll:pages
+        container_name: asociacija_page
         volumes:
           - .:/srv/jekyll
 
