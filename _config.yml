@@ -1,0 +1,30 @@
+# Site settings
+title: "Asociacija \"Atvirasis žemėlapis\""
+email: info@openmap.lt
+description: 
+baseurl: ""
+url: "http://asociacija.openmap.lt"
+github_username: openmaplt
+
+# Build settings
+markdown: kramdown
+
+# These override Jekyll defaults
+permalink: /:year/:title
+
+# These are new (in addition to Jekyll's elements above )
+organization: "Atvirasis žemėlapis"
+placeholderimagesbaseurl: 
+
+# You can specify your own separator, of course. 
+# Use {{ m.excerpt }} in your .md Files in blog/_posts or members/_posts
+excerpt_separator: <!--more--> 
+
+# Additional gems for sitemap generation
+gems:
+  - jekyll-sitemap
+
+exclude:
+  - CNAME
+  - docker-compose.yaml
+  - virtualenv 

@@ -1,0 +1,7 @@
+version: '2'
+services:
+    page:
+        image: jekyll/jekyll:pages
+        volumes:
+          - .:/srv/jekyll
+
