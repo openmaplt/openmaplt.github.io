@@ -3,6 +3,8 @@ services:
     page:
         image: jekyll/jekyll:pages
         container_name: asociacija_page
+        ports:
+          - 4000:4000
         volumes:
           - .:/srv/jekyll
-
+        command: jekyll serve -I

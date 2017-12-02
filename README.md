@@ -10,9 +10,5 @@ Prieš pradedant darbą:
 
 * `docker-compose up`
 
-IP adresas:
-
-* `docker inspect asociacija_page | grep IPAddress`
-
-Visi pakeitimai iškarto turi matytis adresu `http://x.x.x.x:4000`
+Svetainė pasiekiama adresu adresu `http://localhost:4000`
 
