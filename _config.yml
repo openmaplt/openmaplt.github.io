@@ -1,7 +1,7 @@
 # Site settings
 title: "Asociacija \"Atvirasis žemėlapis\""
 email: info@openmap.lt
-description: 
+description: "Official page"
 baseurl: ""
 url: "http://asociacija.openmap.lt"
 github_username: openmaplt
@@ -21,7 +21,7 @@ placeholderimagesbaseurl:
 excerpt_separator: <!--more--> 
 
 # Additional gems for sitemap generation
-gems:
+plugins:
   - jekyll-sitemap
 
 exclude:
