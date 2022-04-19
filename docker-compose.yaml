@@ -1,7 +1,7 @@
 version: '2'
 services:
     page:
-        image: jekyll/jekyll:pages
+        image: jekyll/jekyll:4
         container_name: asociacija_page
         ports:
           - 4000:4000
